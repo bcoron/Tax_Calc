@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Calculadora antes de impuestos</string>
+    <string name="rate_label">Impuesto:</string>
+    <string name="final_label">Final:</string>
+    <string name="price_label">Precio:</string>
+    <string name="hint_label">Indicio:</string>
+    <string name="calc_label">Calcular</string>
+    <string name="rate_hint">Introduzca la tasa como un porcentaje sin el signo de porcentaje. Por ejemplo, si su tasa es del 7,5%, entre 7,5.</string> 
+    <string name="final_hint">Introduzca la cantidad que usted desea que su precio calculado para el uso de la tasa de impuesto ingresado.</string>
+    
+</resources>

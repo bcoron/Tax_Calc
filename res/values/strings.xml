@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Pretax Calc</string>
+    <string name="rate_label">Rate:</string>
+    <string name="final_label">Final:</string>
+    <string name="price_label">Price:</string>
+    <string name="hint_label">Hint:</string>
+    <string name="calc_label">Calculate</string>
+    <string name="rate_hint">Enter the rate as a percentage without the percent sign. For example if your rate is 7.5%, enter 7.5.</string> 
+    <string name="final_hint">Enter the amount you want your price to be calculated for using the entered tax rate.</string>
+    
+</resources>

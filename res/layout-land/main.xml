@@ -13,7 +13,7 @@
         <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editText3" android:inputType="numberDecimal"></EditText>
     </LinearLayout>
     <LinearLayout android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="240dp" android:weightSum="1">
-        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView4" android:layout_height="214dp" android:paddingLeft="5dp" android:layout_weight="0.95" android:layout_width="fill_parent" android:text="@string/hint_label" android:visibility="invisible"></TextView>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView4" android:layout_height="214dp" android:paddingLeft="5dp" android:layout_weight="0.95" android:layout_width="fill_parent" android:text="@string/hint_label" android:fadeScrollbars="true"></TextView>
         <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_width="113dp" android:text="@string/calc_label" android:textSize="20sp"></Button>
     </LinearLayout>
     

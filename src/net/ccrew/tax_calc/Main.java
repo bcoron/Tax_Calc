@@ -1,7 +1,11 @@
 package net.ccrew.tax_calc;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -9,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Main extends Activity {
+	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,6 +64,26 @@ public class Main extends Activity {
 			}
 		});
     }
+    
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+    	MenuInflater inflater = getMenuInflater();
+    	inflater.inflate(R.menu.option_menu, menu);
+    	return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	if (item.getItemId() == R.id.settings){
+    		Intent intent = new Intent(Main.this, Preferences.class);
+    		startActivity(intent);
+    	}
+    	if (item.getItemId() == R.id.help){
+    		// do something
+    	}
+    	return super.onOptionsItemSelected(item);
+    }
+    
     public void setRateHint() {
     	TextView tv = (TextView) findViewById(R.id.textView4);
     	tv.setText(R.string.rate_hint);
@@ -68,5 +93,7 @@ public class Main extends Activity {
     	TextView tv = (TextView) findViewById(R.id.textView4);
     	tv.setText(R.string.final_hint);
     }
+    
+    
 
 }

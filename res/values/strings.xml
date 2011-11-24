@@ -9,5 +9,19 @@
     <string name="calc_label">Calculate</string>
     <string name="rate_hint">Enter the rate as a percentage without the percent sign. For example if your rate is 7.5%, enter 7.5.</string> 
     <string name="final_hint">Enter the amount you want your price to be calculated for using the entered tax rate.</string>
-    
+
+    <string name="adj">Adjustment</string>
+    <string name="adj_meth">Adjustment Method</string>
+    <string name="adj_meth_sum">Select which direction to adjust</string>
+    <string name="adj_alerts">Adjustment Alerts</string>
+    <string name="en_alerts_sum">Enable or disable adjustment alerts</string>
+    <string name="en_alerts">Enable Alerts</string>
+    <string name="en_vib_sum">Enable or disable vibrate alert</string>
+    <string name="en_vib">Enable Vibrate</string>
+    <string name="en_toast_sum">Enable or disable Toast alert</string>
+    <string name="en_toast">Enable Toast</string>
+    <string name="en_aud_sum">Enable or disable audio alert</string>
+    <string name="en_aud">Enable Audio</string>
+    <string name="al_snd_sum">Select a ringtone for your alert</string>
+    <string name="al_snd">Alert Sound</string>
 </resources>

@@ -7,22 +7,22 @@
     <string name="price_label">Precio:</string>
     <string name="hint_label">Indicio:</string>
     <string name="calc_label">Calcular</string>
-    <string name="rate_hint">Introduzca la tasa como un porcentaje sin el signo de porcentaje. Por ejemplo, si su tasa es del 7,5%, entre 7,5.</string> 
+    <string name="rate_hint">Introduzca la tasa como un porcentaje sin el signo de porcentaje. Por ejemplo, si su tasa es del 7,5%, ingrese 7,5.</string> 
     <string name="final_hint">Introduzca la cantidad que usted desea que su precio calculado para el uso de la tasa de impuesto ingresado.</string>
     
     <string name="adj">Ajuste</string>
-    <string name="adj_meth">Ajuste Método</string>
-    <string name="adj_meth_sum">Seleccione la dirección para ajustar</string>
-    <string name="adj_alerts">Ajuste Alerta</string>
+    <string name="adj_meth">Método de Ajuste</string>
+    <string name="adj_meth_sum">Seleccione la dirección del ajuste</string>
+    <string name="adj_alerts">Alertas de Ajuste</string>
     <string name="en_alerts_sum">Activar o desactivar las alertas de ajuste</string>
-    <string name="en_alerts">Activar Las Alertas</string>
-    <string name="en_vib_sum">Activar o desactivar la alerta de vibración</string>
+    <string name="en_alerts">Activar Alertas</string>
+    <string name="en_vib_sum">Activar o desactivar la alerta vibradora</string>
     <string name="en_vib">Activar Vibración</string>
     <string name="en_toast_sum">Activar o desactivar la alerta Toast</string>
     <string name="en_toast">Enable Toast</string>
-    <string name="en_aud_sum">Activar o desactivar el sonido de alerta</string>
-    <string name="en_aud">Activar El Audio</string>
+    <string name="en_aud_sum">Activar o desactivar sonido en las alertas</string>
+    <string name="en_aud">Activar Sonido</string>
     <string name="al_snd_sum">Seleccione un tono para la alerta</string>
-    <string name="al_snd">Sonido De Alerta</string>
+    <string name="al_snd">Sonido de la Alerta</string>
     
 </resources>
